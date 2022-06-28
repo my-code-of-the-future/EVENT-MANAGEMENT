@@ -1,0 +1,131 @@
+<html>
+<head>
+<style>
+    body{
+        background-image: radial-gradient(white,rgb(159, 147, 147));
+    }
+form{
+font-size:30px;
+text-align:center;
+}
+h1{
+font-size:40px;
+text-align:center;
+font-family:'Times New Roman';}
+#button{
+color:white;
+background-color:green;
+padding:15px;
+margin:20px;
+text-align:right;}
+.button{
+color:white;
+background-color:red;
+padding:15px;}
+a{
+    text-decoration: none;
+    margin-left: 75px;
+    font-size: 25px;
+}
+.link{
+background-color:black;
+padding: 35px;
+text-align: right;
+font-size:30px;
+color:white;
+}
+.responsive {
+  width: 100%;
+  height: auto;
+}
+.text{
+   font-size= 10vw;
+}
+</style>
+</head>
+<body>
+    <ul class="link" class="text">
+        <li style="display: inline-block;"><a href="index.html" class="a"><span style="color:white"> Home </span></a></li>
+        <li style="display: inline-block;"></li><a href="services.html" class="a"><span style="color:white">Services</span></a></li>
+        <li style="display: inline-block;"><a href="registry.html" class="a"><span style="color:white">Registry</span></a></li>
+        <li style="display: inline-block;"><a href="about.html" class="a"><span style="color:white">About us</span></a></li>
+        </ul>
+<h1 class="text">Kindly Submit Your Form For Registry</h1><br>
+<form action class="text">
+<label id="fname" name="fname" >First Name: </label>
+<input type="text" id="fname" placeholder="            FIRST NAME"><br><br>
+<label id="lname" name="lname">Last Name: </label>
+<input type="text" id="lname" placeholder="            LAST NAME"><br><br>
+<label id="num" name="num">Contact: </label>
+<input type="text" id="num" placeholder="    XXXX-XXXXXXX"><br><br>
+<label id="mail" name="mail">Email Adress</label>
+<input type="text" id="main" placeholder="  your_email_id@gmail.com"><br><br>
+<label id="day" name="day">When's your special day? </label>
+<select name="month">
+<option value="1">Month</option>
+<option value="2">JANUARY</option>
+<option value="3">FEBRUARY</option>
+<option value="4">MARCH</option>
+<option value="5">APRIL</option>
+<option value="6">MAY</option>
+<option value="7">JUNE</option>
+<option value="8">JULY</option>
+<option value="9">AUGUST</option>
+<option value="10">SEPTEMBER</option>
+<option value="11">OCTOBER</option>
+<option value="12">NOVEMBER</option>
+<option value="13">DECEMBER</option>
+</select>
+<select name="Date">
+<option value="1">Date</option>
+<option value="14">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option>
+<option value="7">7</option>
+<option value="8">8</option>
+<option value="9">9</option>
+<option value="11">10</option>
+<option value="12">11</option>
+<option value="13">12</option>
+<option value="21">13</option>
+<option value="15">14</option>
+<option value="16">15</option>
+<option value="17">16</option>
+<option value="18">17</option>
+<option value="19">18</option>
+<option value="20">19</option>
+<option value="22">20</option>
+<option value="23">21</option>
+<option value="24">22</option>
+<option value="25">23</option>
+<option value="26">24</option>
+<option value="27">25</option>
+<option value="28">26</option>
+<option value="29">27</option>
+<option value="30">28</option>
+<option value="31">29</option>
+<option value="32">30</option>
+</select>
+<select name="Year">
+<option value="1">Year</option>
+<option value="2">2022</option>
+<option value="3">2023</option>
+<option value="4">2024</option>
+</select><br><br>
+<label id="place" name="place">where you're getting married? </label>
+<input type="text" id="place" placeholder=" Any City or Area(optional)"><br><br>
+<label id="bplace" name="bplace">where you're celebrating your birthday? </label>
+<input type="text" id="bplace" placeholder=" Any City or Area(optional)"><br><br>
+<label id="aplace" name="aplace">where you're celebrating your anniversary? </label>
+<input type="text" id="aplace" placeholder=" Any City or Area(optional)"><br><br>
+<label id="cplace" name="cplace">where you're celebrating award ceremony? </label>
+<input type="text" id="cplace" placeholder=" Any City or Area(optional)"><br><br>
+
+<button type="button" id="button" onclick="alert('Your registration details has been submitted successfully')">Submit</button>
+<a href="registry.html"><button type="button" class="button">Cancel</button></a>
+</form>
+</body>
+</html>
